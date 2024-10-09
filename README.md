@@ -30,9 +30,12 @@ Contact Ongologie Antoni van Leeuwenhoek Ziekenhuis: j.v.diessen@nki.nl
 Contactpersoon FDND studenten: vdgraaf.tessa@gmail.com
 
 ## Schetsen
-<!-- welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? -->
+
+[versie 1 van de Webinar Pagina](./https://github.com/misspastelwitch/the-client-website/issues/2)
+[breakdownschetsen van de webinar Pagina](./https://github.com/misspastelwitch/the-client-website/issues/1)
 
 ## Bouwen
+Momenteel is er niet veel HTML gebruikt om deze pagina te bouwen. Vanwege de media player en de comment sectie is er geen nood om grote blokken text te gebruiken voor deze pagina. Voor de hoofdpagina zou ik meer HTML gebruiken om alle artiekelen/webinars en CT scans te laten zien in een grid. Er is wel een heleboel CSS gebruikt om verschillende "secties" op deze pagina te gebruiken. Ik heb een articles sectie, speaker profile, navbar en de hooftstuk, een mediaplayer gemaakt die netjes op de pagina zijn geplaatst om alle informatie bereikbaar te maken, zonder het focus op de mediaplayer af te leiden. Ik heb ook een stukje JavaScript geschreven om de comments sectie bruikbaar te maken.
 
 ## Sprint Review
 
