@@ -8,19 +8,33 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS.md](https://github.com
 
 ## Inhoudsopgave Readme
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+  * [Briefing]
+  * [Schetsen]
+  * [Bouwen]
+  * [Sprint Review]
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+## Briefing
+Oncollaboration
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Waarom?
+Het project is ontstaan naar een behoefte aan meer interactie tussen Indonesie en de internationale medische gemeenschap, vanwege het achterblijven van de gezondheidszorg in Indonesie. Artsen worden alleen opgeleid in Jakarta en behandelen patiënten met relatief weinig ervaring. Met dit project hopen we om de artsen van Indonesie betere connectie tot ziekenhuisen in Nederland te geven om op de hoogte te blijven met medische toepassingen en innovatie. 
 
+Wat is onze doel?
+Onze doel is de communicatie tussen Nederlands en Indonesische oncoloogen te verbeteren via chats en webinars, en bijvoorbeeld om CT-scans te bespreken en vragen te stellen. Alle webinars moeten geüpload worden en makkelijk toegankelijk zijn. Naast de webinars wordt ook gewerkt aan het delen van artikelen en contacten van Nederlandse artsen.
+
+Wat maken we? We zoeken een manier om CT-scans te delen en feedback te geven, en hoe het chatsysteem tussen beide landen moet werken. Alle communicatie moet voor iedereen zichtbaar zijn. Een vertaalfunctie voor de transcripties van de Webinars en goede navigatiestructuur binnen de video's is ook belangrijk. Ik heb al de contactinformatie van de speaker en een apart gedeelte voor artikelen die bij de Webinars horen gemaakt. Het project moet ervoor zorgen dat meer informatie over oncologie beschikbaar is voor ziekenhuizen in Jakarta, met webinars. Het is daarom nodig om een live video player te bouwen, en ook dat klanten comments kunnen zo snel als mogelijk zien, in beide Nederland en Indonesie. Voor nu ligt de focus op het maken van de interface, en dat alles intuitief en makkelijk is om te gebruiken.
+
+Do 10/10: Teams meeting om 11:00 uur. -> sprint review
+
+Contact Ongologie Antoni van Leeuwenhoek Ziekenhuis: j.v.diessen@nki.nl 
+Contactpersoon FDND studenten: vdgraaf.tessa@gmail.com
+
+## Schetsen
+<!-- welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? -->
+
+## Bouwen
+
+## Sprint Review
 
 
 ## Licentie
