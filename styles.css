@@ -8,7 +8,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     display: grid;
-    background-color: #FADDDD;
+    background-color: #faf4f4;
     grid-template-columns: 1fr 3fr 1.5fr; 
     grid-template-rows: auto 1fr; 
     height: 100vh;
@@ -104,7 +104,7 @@ body {
 
 /* Comment Section Styling */
 .comments-section {
-    background-color: #d9cdcd;
+    background-color: #FADDDD;
     padding: 20px;
     border-radius: 10px;
     height: 150px;
@@ -120,7 +120,7 @@ body {
     max-width: 20%;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #fbbfbf;
+    background-color:#FADDDD;
     color:  #99004d;
     text-align: center;
     height: calc(100vh - 80px); 
@@ -154,7 +154,7 @@ body {
     max-width: 20%;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #fbbfbf;
+    background-color: #FADDDD;
     color:  #99004d;
     text-align: center;
     height: calc(100vh - 80px);
