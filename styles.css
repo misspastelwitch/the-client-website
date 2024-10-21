@@ -1,24 +1,22 @@
-* { 
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+    background-color: #FADDDD;
+    color:#6b0237 ;
+    overflow-x: hidden;
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: grid;
-    background-color: #faf4f4;
-    grid-template-columns: 1fr 3fr 1.5fr; 
-    grid-template-rows: auto 1fr; 
-    height: 100vh;
-    gap: 20px;
-    justify-items: center;
-    align-items: center;
-    overflow: hidden; 
 }
 
 /* Navigation Bar */
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
 .navbar {
     grid-column: 1 / 4;
     display: flex;
@@ -26,41 +24,25 @@ body {
     background-color:  #99004d;
     width: 100%;
     padding: 20px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    height: 80px;
-    z-index: 100;
+    height: 60px;
+    .search-container {
+        display: flex;
+        margin: 20px 0;
+    }
 }
-
-/* Logo */
-.navbar .logo img {
-    width: 80px;
-    height: auto;
-    top: 0;
-    left: 0;
-}
-
-/* Navigation Menu */
-.navbar .menu {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
 .navbar .menu li {
     margin: 0 20px;
-    cursor: pointer;
     color: white;
-    font-weight: bold;
     transition: background-color 0.3s ease;
     padding: 10px 20px;
     border-radius: 5px;
 }
 
 .navbar .menu li:hover {
-    background-color: #4d0026;
+    background-color: #6b0237;
 }
 
 .dropdown-content {
@@ -69,7 +51,6 @@ body {
     top: 100%;
     background-color: #99004d;
     list-style: none;
-    z-index: 1; 
     transition: 2s ease-in-out;
 }
 
@@ -78,105 +59,208 @@ body {
     transition: 1s ease-in-out;
 }
 
-.main-content {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* Search function */
+.search-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
+    margin: 20px 0; 
 }
 
-.media-player {
-    margin-top: 20px;
-    margin-bottom: 20px; 
+.search-input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #5c104e;
+    outline: none;
+    font-size: 16px;
 }
 
-.media-player video {
-    width: 50vw; 
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+.search-button {
+    padding: 10px 20px;
+    background-color: #6b0237;
+    color: white;
+    border: 2px solid #6b0237;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
+.search-button:hover {
+    background-color: #ffffff;
+    color: #6b0237;
+}
+
+/* Webinar */
+    .video-container {
+        width: 500px;
+        height: 300px;
+        max-width: 500px;
+        max-height: 300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+/*    position: absolute;??? */
+/* speaker profile */
+
+.profile .profile-info {
+    color: #6b0237;
+    margin-top: 15px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 8px;
+}
+.profile img {
+float: left;
+margin-right: 10px;
+margin-left: 25px;
+margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
 /* Comment Section Styling */
 .comments-section {
-    background-color: #FADDDD;
+    background-color: #ffffff;
+    text-align: center;
     padding: 20px;
     border-radius: 10px;
-    height: 150px;
-    width: 100%; 
-    max-width: 1200px;
+    height: 200px;
+    width: 850px; 
+    margin: 20px auto; /* Center horizontally */
     box-shadow: 0 2px 10px rgba(152, 12, 12, 0.575);
 }
 
-/* Profile Section*/
-.profile {
-    grid-column: 3 / 4; 
+/* Featured Articles */
+#relevant-articles {
+    background-color: #fff;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 15px;
     width: 100%;
-    max-width: 20%;
+    border-radius: 8px;
+}
+#heading 1 {
+    font-size: 40px;
+    margin-bottom: 150px;
+}
+#heading 2 {
+    font-size: 18px;
+    margin-bottom: 150px;
+}
+
+#relevant-articles img {
+    background-color: #f0f0f0;
     padding: 20px;
-    box-sizing: border-box;
-    background-color:#FADDDD;
-    color:  #99004d;
-    text-align: center;
-    height: calc(100vh - 80px); 
-    position: fixed; 
-    right: 0;
-    top: 80px; 
+    width: 50%;
+    border-radius: 8px;
 }
 
-.profile img {
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    background-color: #ccc;
-    margin-bottom: 10px;
-}
-
-/* Profile Info Styling */
-.profile .profile-info {
-    background-color: #FADDDD;
-    padding: 15px;
-    border-radius: 10px;
-    color: #660033;
-    text-align: left;
-    margin-top: 10px;
-}
-
-/* Articles section */
-.articles {
-    grid-column: 1 / 2;
-    width: 100%;
-    max-width: 20%;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #FADDDD;
-    color:  #99004d;
-    text-align: center;
-    height: calc(100vh - 80px);
-    position: fixed; 
-    left: 0;
-    top: 80px; 
-}
-
-.articles img {
-    width: 250px;
-    height: 150px;
-    background-color: #ccc;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-/* Article description section */
 .articles .article {
-    background-color: #FADDDD;
-    padding: 50px;
-    border-radius: 10px;
-    color: #660033;
-    text-align: left;
-    margin-top: 10px; 
+    display: flex;
+    justify-content: center; 
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.articles .button {
+    background-color: #6b0237;
+    color:#FADDDD;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Other Webinar */
+#webinars h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#webinars .categories button {
+    background-color: #6b0237;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#webinars .webinar-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+#webinars .webinar {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 23%;
+    border-radius: 8px;
+}
+
+#webinars .webinar h3 {
+    color: #99004d;
+}
+
+#webinars .webinar a {
+    color: #99004d;
+    text-decoration: none;
+}
+/* Relevant Contourings */
+#contouring {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+#contouring h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#contouring .contour h3 {
+    color: #99004d;
+}
+#contouring .contouring-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contouring .contour {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+#contouring .contour h3 {
+    color: #99004d;
+}
+
+/* footer */
+footer {
+    background-color: #99004d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: wavy;
 }
