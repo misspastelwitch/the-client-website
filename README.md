@@ -28,10 +28,10 @@ en
 [breakdownschetsen van de webinar Pagina](./https://github.com/misspastelwitch/the-client-website/issues/1)
 
 ## Bouwen
-Momenteel is er niet veel HTML gebruikt om deze pagina te bouwen. Vanwege de media player en de comment sectie is er geen nood om grote blokken text te gebruiken voor deze pagina. Voor de hoofdpagina zou ik meer HTML gebruiken om alle artiekelen/webinars en CT scans te laten zien in een grid. Er is wel een heleboel CSS gebruikt om verschillende "secties" op deze pagina te gebruiken. Ik heb een articles sectie, speaker profile, navbar en de hooftstuk, een mediaplayer gemaakt die netjes op de pagina zijn geplaatst om alle informatie bereikbaar te maken, zonder het focus op de mediaplayer af te leiden. Ik heb ook een stukje JavaScript geschreven om de comments sectie bruikbaar te maken.
+Momenteel is er niet veel HTML gebruikt om deze pagina te bouwen. Vanwege de media player en de comment sectie is er geen nood om grote blokken text te gebruiken voor deze pagina. Voor de hoofdpagina zou ik meer HTML gebruiken om alle artiekelen/webinars en CT scans te laten zien in een grid. Er is wel een heleboel CSS gebruikt om verschillende "secties" op deze pagina te gebruiken. Ik heb een articles sectie, speaker profile, navbar en de hooftstuk, een mediaplayer gemaakt die netjes op de pagina zijn geplaatst om alle informatie bereikbaar te maken, zonder het focus op de mediaplayer af te leiden. Ik heb ook een stukje JavaScript geschreven om de comments sectie bruikbaar te maken. Samen met mijn collegas in Sprint 4 hebden we de huisstijl veranderd om een bepaalde 'look' te houden. Onze websites zijn nu toegepast met verschillende nieuwe kleuren en typographie.
 
 ## Sprint Review
-Donderdag 24 Oktober gaat onze tweede Sprint Review plaatsvinden. Dit gaan we via Teams om 11:00 houden.
+Donderdag 28 November gaat onze derde Sprint Review plaatsvinden. Dit gaan we via Teams om 11:00 houden.
 
 Contact Ongologie Antoni van Leeuwenhoek Ziekenhuis: j.v.diessen@nki.nl 
 Contactpersoon FDND studenten: vdgraaf.tessa@gmail.com
